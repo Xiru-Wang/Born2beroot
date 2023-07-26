@@ -86,9 +86,10 @@ $ sudo adduser <user> <groupname> : add useer to this group
 $ sudo usermod -aG <groupname> <user>
 
 $getent group <groupname> : verify whether user was sucessfully added
+
 _________
 
-Root vs. sudo
+- Root vs. sudo
 
 In Linux and UNIX systems, the root user is the superuser and has all access to the system. This means that the root user can execute any command, modify any files, including system files. Because of such privileges, misuse of the root user can result in system damage or data loss.
 
@@ -104,6 +105,15 @@ The use of sudo can increase system security because:
 
 In summary, the root is the superuser of the system with the highest permissions, while sudo is a tool that allows normal users to execute certain superuser commands.
 
+_________
+
+- TTY mode
+short for Teletypewriter mode, refers to a text-based console session in Linux and Unix-like systems where users interact with the operating system using text commands instead of a graphical user interface (GUI).
+
+_________
+
+The architecture of your operating system and its kernel version.
+$ uname --all
 
 
 
