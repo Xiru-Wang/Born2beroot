@@ -7,6 +7,18 @@ Virtualization is a technology that can decompose a physical hardware resource, 
 
 Virtual Machine (VM) is a type of software running on a physical computer that can simulate the operating environment of one or more physical computers. This environment includes processors, memory, disk storage, network interfaces, etc. The operating system and applications running on a virtual machine are no different from those running on a physical machine. The main advantage of a virtual machine is that it can divide the computing power of a physical machine into multiple independent virtual machines, thus allowing more efficient use of hardware resources.
 
+- advantages to using VMs:
+
+Isolation: Applications running in virtual machines are isolated from the host system and other virtual machines, which can enhance the security of the system, as potential viruses or malware are confined within a single VM.
+
+Improved resource utilization: By using virtual machines, a single physical host can run multiple operating systems and applications concurrently, which allows for more efficient use of hardware resources.
+
+Ease of testing and development: Developers can install and test new applications or operating systems in virtual machines without affecting the host system. If problems arise, it's easy to restore the previous state or recreate the VM.
+
+Ease of migration and duplication: The entire state of a VM, including the operating system, applications, and data, can be saved as files, making it easy to copy and migrate to other physical hosts.
+
+Cost savings: As VMs can improve the utilization of hardware resources, the number of physical hosts that need to be purchased can be reduced, thereby saving on hardware and energy costs.
+
 _________
 
 - Why debian?
